@@ -7,6 +7,53 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans';
     font-weight: 300;
+    color: black;
+}
+
+/* Headings and logo font */
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+}
+
+/* company logo and menu */
+#logo {
+    float: left;
+    font-size: 300%;
+    line-height: 75px;
+    margin-left: 33%;
+}
+
+/* navigation menu */
+#menu {
+    font-size: 150%;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+#sub-header {
+    clear: both;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-left: 20%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid black;
+}
+
+.active {
+    border-bottom: 2px solid black;
 }
