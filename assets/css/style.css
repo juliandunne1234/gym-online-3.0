@@ -10,6 +10,9 @@ body {
     font-family: 'Open Sans';
     font-weight: 300;
     color: black;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
 }
 
 /* Headings and logo font */
@@ -22,10 +25,11 @@ h1, h2 {
 
 /* company logo and menu */
 #logo {
+    clear: both;
     float: left;
     font-size: 300%;
     line-height: 75px;
-    margin-left: 33%;
+    width: 100%;
 }
 
 /* navigation menu */
@@ -35,14 +39,10 @@ h1, h2 {
     line-height: 50px;
 }
 
-#sub-header {
-    clear: both;
-}
-
 #menu li {
-    float: left;
-    list-style-type: none;
-    margin-left: 20%;
+    display: table-cell;
+    width: 1%;
+    text-align:center;
 }
 
 #menu a {
@@ -56,4 +56,8 @@ h1, h2 {
 
 .active {
     border-bottom: 2px solid black;
+}
+
+.center {
+    text-align: center;
 }
