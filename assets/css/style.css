@@ -69,7 +69,7 @@ h1, h2 {
 
 /* about us and mission statement */
 #about-us {
-    background: url('/assets/images/hero-image.jpeg');
+    background: url('../images/hero-image.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -180,4 +180,24 @@ h1, h2 {
     margin: 30px auto;
     width: 50%;
     border-bottom: 6px dashed #1e90ff;
+}
+
+#plan1:hover, #plan2:hover, #plan3:hover {
+    /* animates zoom effect when hovering on subscriber plan */
+    animation-name: plan-zoom;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    background-color: #1e90ff;
+    border: 2px solid #1e90ff;
+}
+
+
+/* creates the level of zoom for different subscriber plans */
+@keyframes plan-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
