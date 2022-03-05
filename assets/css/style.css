@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Open Sans';
-    font-weight: 300;
-    color: black;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.9);
     width: 80%;
     margin: 0 auto;
     background-color: #fafafa;
@@ -20,7 +20,7 @@ h1, h2 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: black;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 /* company logo and menu */
@@ -33,7 +33,7 @@ h1, h2 {
 }
 
 .logo-color {
-    color: #1e90ff;
+    color: #0066CC;
 }
 
 /* navigation menu */
@@ -55,12 +55,12 @@ h1, h2 {
 }
 
 #menu a:hover {
-    color:#1e90ff;
-    border-bottom: 2px solid #1e90ff;
+    color:#0066CC;
+    border-bottom: 2px solid #0066CC;
 }
 
 .active {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
 }
 
 .center {
@@ -79,12 +79,11 @@ h1, h2 {
 }
 
 #about-us div {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1));
     width: 50%;
     height: 300px;
     float: left;
     box-sizing: border-box;
-    padding: 50px 0 0 120px;
+    padding: 30px 0 0 120px;
     border: 2px solid #fafafa;
     text-align: center;
     color: #fafafa;
@@ -124,10 +123,10 @@ h1, h2 {
 /* different membership plans */
 #subscriber-plans {
     height: 300px;
+    background-color: #fafafa;
 }
 
 #plan1, #plan2, #plan3 {
-    border: 2px solid black;
     box-sizing: border-box;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.7));
 }
@@ -167,19 +166,19 @@ h1, h2 {
 }
 
 .hr-heading {
-    border-bottom: 3px solid #1e90ff;
+    border-bottom: 3px solid #0066CC;
     margin: 3px 0;
 }
 
 .hr-moto {
-    border-bottom: 2px solid #1e90ff;
+    border-bottom: 2px solid #0066CC;
     margin: 2px 0;
 }
 
 .hr-dashed {
     margin: 30px auto;
     width: 50%;
-    border-bottom: 6px dashed #1e90ff;
+    border-bottom: 6px dashed #0066CC;
 }
 
 #plan1:hover, #plan2:hover, #plan3:hover {
@@ -187,8 +186,8 @@ h1, h2 {
     animation-name: plan-zoom;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    background-color: #1e90ff;
-    border: 2px solid #1e90ff;
+    background-color: #0066CC;
+    border: 2px solid #0066CC;
 }
 
 
@@ -215,14 +214,14 @@ h1, h2 {
 }
 
 #select-plan-nav, #signup-nav {
-    border: 2px solid #1e90ff;
+    border: 2px solid #0066CC;
     padding: 10px 40px;
     line-height: 50px;
     border-radius: 10px;
     letter-spacing: 3px;
     font-weight: 900;
     background-color: #fafafa;
-    color: #1e90ff;
+    color: #0066CC;
     font-size: 150%;
     text-decoration: none;
     position: relative;
@@ -255,3 +254,65 @@ h1, h2 {
     width: 100%;
 }
 
+/* contacts and social networks */
+footer {
+    clear: both;
+    height: 75px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.social-networks {
+    list-style: none;
+    text-align: center;
+    height: 37.5px;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.social-networks i:hover {
+    border-bottom: 2px solid #0066CC;
+    color: #0066CC;
+    padding-bottom: 2px;
+}
+
+#contact-heading {
+    height: 37.5px;
+    text-align: right;
+    line-height: 25px;
+    margin-top: 3px;
+    padding-right: 1%;
+    letter-spacing: 1.5px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#contact-details {
+    font-size: 125%;
+    text-align: left;
+    line-height: 17.5px;
+    margin-top: 3px;
+    padding-left: 1%;
+    letter-spacing: 1.5px;
+    width: 50%;
+    float: right;
+    box-sizing: border-box; 
+}
+
+#hr-footer {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.7);
+    width: 80%;
+    margin: 0 auto;
+}
