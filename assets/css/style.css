@@ -202,7 +202,7 @@ h1, h2 {
     }
 }
 
-/* navigation links in a button style */
+/* anchor tags in a button style */
 #nav-styled-link {
     height: 150px;
     border: 2px solid #fafafa;
@@ -218,9 +218,40 @@ h1, h2 {
     border: 2px solid #1e90ff;
     padding: 10px 40px;
     line-height: 50px;
-    border-radius: 5px;
-    background-color: #1e90ff;
-    color: #fafafa;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    background-color: #fafafa;
+    color: #1e90ff;
     font-size: 150%;
     text-decoration: none;
+    position: relative;
+    transition: all 0.5s;
 }
+
+.slider-font {
+    position: relative;
+    z-index: 2;
+}
+
+#select-plan-nav::after, #signup-nav::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgba(14, 109, 204, 0.9), rgba(14, 109, 204, 0.6));
+    transition: all 0.5s;
+}
+
+#select-plan-nav:hover, #signup-nav:hover {
+    color: #fafafa;
+    border: 2px solid #fafafa;
+}
+
+#select-plan-nav:hover::after, #signup-nav:hover::after {
+    width: 100%;
+}
+
