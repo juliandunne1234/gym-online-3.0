@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 900;
     color: rgba(0, 0, 0, 0.9);
     width: 80%;
@@ -15,15 +15,14 @@ body {
     background-color: #fafafa;
 }
 
-/* Headings and logo font */
+/* Headings and logo */
 h1, h2 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.9);
 }
 
-/* company logo and menu */
 #logo {
     clear: both;
     float: left;
@@ -56,19 +55,19 @@ h1, h2 {
 
 #menu a:hover {
     color:#0066CC;
-    border-bottom: 2px solid #0066CC;
+    border-bottom: 3px solid #0066CC;
 }
 
 .active {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.9);
 }
 
 .center {
     text-align: center;
 }
 
-/* about us and mission statement */
-#about-us {
+/* intro showing subscriber statement and gym moto */
+#hero-outer {
     background: url('../images/hero-image.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,46 +77,51 @@ h1, h2 {
     height: 300px;
 }
 
-#about-us div {
+#subscriber-opening-tag, #company-moto {
     width: 50%;
     height: 300px;
+    letter-spacing: 1.5px;
     float: left;
-    box-sizing: border-box;
     padding: 30px 0 0 120px;
     border: 2px solid #fafafa;
     text-align: center;
     color: #fafafa;
+    box-sizing: border-box;
 }
 
-#about-us h3 {
-    width: 90%;
-    font-size: 300%;
-}
-
-#about-us h4 {
-    width: 90%;
-    font-size: 250%;
-}
-
-#about-us h5 {
-    width: 90%;
-    font-size: 200%;
-}
-
-#about-us h6 {
-    width: 90%;
-    font-size: 150%;
-}
-
-#about-us p {
+#subscriber-opening-tag p {
     font-size: 150%;
     font-style: italic;
-    padding-top: 50px;
+    padding-top: 30px;
     width: 80%;
 }
 
 .first-subscriber {
     font-size: 50%;
+}
+
+#company-moto h3 {
+    width: 90%;
+    font-size: 300%;
+    padding-top: 9px;
+}
+
+#company-moto h4 {
+    width: 90%;
+    font-size: 250%;
+    padding-top: 3px;
+}
+
+#company-moto h5 {
+    width: 90%;
+    font-size: 200%;
+    padding-top: 3px;
+}
+
+#company-moto h6 {
+    width: 90%;
+    font-size: 150%;
+    padding-top: 3px;
 }
 
 /* different membership plans */
@@ -129,32 +133,17 @@ h1, h2 {
 #plan1, #plan2, #plan3 {
     box-sizing: border-box;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.7));
-}
-
-#plan1 {
     margin: 0 auto;
     width: 33%;
-    vertical-align: top;
-    display: inline-block;
-}
-
-#plan2 {
-    width: 33%;
-    margin: 0 auto;
-    vertical-align: top;
-    display: inline-block;
-}
-
-#plan3 {
-    margin: 0 auto;
-    width: 33%;
+    height: 100%;
     vertical-align: top;
     display: inline-block;
 }
 
 .plan-heading-moto {
     width: 60%;
-    height: 100px;
+    height: 60px;
+    padding-top: 20px;
     line-height: 25px;
     text-align: center;
     margin: 30px auto;
@@ -201,8 +190,8 @@ h1, h2 {
     }
 }
 
-/* anchor tags in a button style */
-#nav-styled-link {
+/* anchor element styled as a button */
+#anchor-styled-button {
     height: 150px;
     border: 2px solid #fafafa;
     width: 50%;
@@ -297,6 +286,10 @@ footer {
     width: 50%;
     float: left;
     box-sizing: border-box;
+}
+
+#contact-heading > h2 {
+    color: rgba(0, 0, 0, 0.8);
 }
 
 #contact-details {
