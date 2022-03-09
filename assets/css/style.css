@@ -310,13 +310,97 @@ footer {
     margin: 0 auto;
 }
 
-/* sign up webpage */
+/* select-a-plan webpage */
+/* detailed gym plans */
+#subscriber-plans-detail {
+    height: 450px;
+    background-color: #fafafa;
+}
+
+/* subscriber reviews and motivational video */
+#subscriber-review-main {
+    height: 300px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+}
+
+.gold-star {
+    color: rgba(255, 215, 0, 0.7);
+}
+
+.no-star {
+    color: #fafafa;
+}
+
+#positive-reviews-outer {
+    float: left;
+    height: 300px;
+    width: 50%;
+    border: 2px solid #fafafa;
+    box-sizing: border-box;
+}
+
+#positive-reviews-inner {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.subscriber-name {
+    /* margin-top: 1.5px; */
+    margin-bottom: 2px;
+    letter-spacing: 1.5px;
+    color: #fafafa;
+    text-decoration: underline;
+}
+
+.subscriber-comment {
+    color: #fafafa;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+.hr-dashed-sm {
+    width: 80%;
+    border-bottom: 3px dashed #0066CC;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#motivational-video-outer {
+    float: right;
+    height: 300px;
+    width: 50%;
+    border: 2px solid #fafafa;
+    box-sizing: border-box;
+}
+
+#motivational-video-inner {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video-style {
+    border: 3px solid #0066CC;
+}
+
+#anchor-styled-button2 {
+    height: 150px;
+    border: 2px solid #fafafa;
+    width: 100%;
+    clear: both;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+}
+
+
+/* signup webpage */
 /* motivational video opening new doors */
 
-#start-your-journey {
-    width: 40%;
-    height: 300px;
-    /* background-size: cover; */
+#signup-background {
+    width: 80%;
+    height: 450px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.7));
     border: 2px solid #fafafa;
     margin: 0 auto;
     background-color: #fafafa;
