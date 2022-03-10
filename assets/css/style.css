@@ -317,6 +317,53 @@ footer {
     background-color: #fafafa;
 }
 
+#plan1-detail, #plan2-detail, #plan3-detail {
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.7));
+    margin: 0 auto;
+    width: 33%;
+    height: 100%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.plan-heading-detail {
+    width: 60%;
+    height: 80px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    line-height: 25px;
+    text-align: center;
+    margin: 5px auto;
+    color: #fafafa;
+}
+
+#plan1-detail h2, #plan2-detail h2, #plan3-detail h2 {
+    color: #fafafa;
+}
+
+.plan-subheading-detail {
+    width: 60%;
+    height: 80px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fafafa;
+}
+
+.plan-subheading-detail ul li {
+    display: inline-block;
+}
+
+#plan1-detail:hover, #plan2-detail:hover, #plan3-detail:hover {
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    background-color: #0066CC;
+    border: 2px solid #0066CC;
+}
+
 /* subscriber reviews and motivational video */
 #subscriber-review-main {
     height: 300px;
