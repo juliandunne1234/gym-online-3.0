@@ -412,6 +412,7 @@ footer {
     margin-bottom: 10px;
 }
 
+/* motivational video opening new doors */
 #motivational-video-outer {
     float: right;
     height: 300px;
@@ -429,6 +430,7 @@ footer {
     border: 3px solid #0066CC;
 }
 
+/* anchor element styled as a button */
 #anchor-styled-button2 {
     height: 150px;
     border: 2px solid #fafafa;
@@ -440,15 +442,45 @@ footer {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
 }
 
-
 /* signup webpage */
-/* motivational video opening new doors */
-
-#signup-background {
+#subscribe-section {
     width: 80%;
     height: 450px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.7));
-    border: 2px solid #fafafa;
     margin: 0 auto;
     background-color: #fafafa;
+}
+
+#subscribe-form {
+    width: 33%;
+    margin: 30px auto;
+    color: #fafafa;
+}
+
+#subscribe-form fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 5px solid #0066CC;
+}
+
+#legend-style {
+    display: block;
+    font-size: 300%;
+    margin: auto;
+    color: #0066CC;
+}
+
+#subscribe-form h2 {
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#subscribe-form h2 i {
+    color: #0066CC;
 }

@@ -29,10 +29,39 @@
         </ul>
     </header>
 
-    <section>
-        <div id="signup-background">
+    <section id="subscribe-section">
+
+        <form action="#" id="subscribe-form">
+            <fieldset>
+                <legend id="legend-style"><i class="fas fa-dumbbell"></i></legend>
             
-        </div>
+                <h2>Subscribe now</h2>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="first_name" class="text-input" placeholder="John" required><br>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="last_name" class="text-input" placeholder="Doe" required><br>
+
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="date_of_birth" class="text-input" required><br>
+
+                <label for="number">Mobile Number</label>
+                <input pattern="[0-9]{5}" placeholder="0871234567" required><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email_address" class="text-input" placeholder="john.doe@gmail.com" required><br>
+
+                <label for="plan1-select">Plan 1</label>
+                <input type="radio" id="plan1-select" name="plan_selection" value="plan_1" required>
+                <label for="plan2-select">Plan 2</label>
+                <input type="radio" id="plan2-select" name="plan_selection" value="plan_2">
+                <label for="plan3-select">Plan 3</label>
+                <input type="radio" id="plan3-select" name="plan_selection" value="plan_3">
+                <br>
+                <input type="submit" value="Subscribe Now"><br>
+                <input type="reset" value="Reset"><br>
+            </fieldset>
+        </form>
     </section>
 
     <footer>
