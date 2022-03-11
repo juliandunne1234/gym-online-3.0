@@ -30,25 +30,24 @@
     </header>
 
     <section id="subscribe-section">
-
         <form action="#" id="subscribe-form">
             <fieldset>
                 <legend id="legend-style"><i class="fas fa-dumbbell"></i></legend>
             
                 <h2>Subscribe now</h2>
-                <label for="fname">First Name</label>
+                <label for="fname">First Name</label><br>
                 <input type="text" id="fname" name="first_name" class="text-input" placeholder="John" required><br>
 
-                <label for="lname">Last Name</label>
+                <label for="lname">Last Name</label><br>
                 <input type="text" id="lname" name="last_name" class="text-input" placeholder="Doe" required><br>
 
-                <label for="dob">Date of Birth</label>
+                <label for="dob">Date of Birth</label><br>
                 <input type="date" id="dob" name="date_of_birth" class="text-input" required><br>
 
-                <label for="number">Mobile Number</label>
-                <input pattern="[0-9]{5}" placeholder="0871234567" required><br>
+                <label for="mob">Mobile Number</label><br>
+                <input pattern="[0-9]{10}" id="mob" name="mobile_number" placeholder="0871234567" class="text-input" required><br>
 
-                <label for="email">Email</label>
+                <label for="email">Email</label><br>
                 <input type="email" id="email" name="email_address" class="text-input" placeholder="john.doe@gmail.com" required><br>
 
                 <label for="plan1-select">Plan 1</label>
@@ -58,8 +57,8 @@
                 <label for="plan3-select">Plan 3</label>
                 <input type="radio" id="plan3-select" name="plan_selection" value="plan_3">
                 <br>
-                <input type="submit" value="Subscribe Now"><br>
-                <input type="reset" value="Reset"><br>
+                <input type="submit" value="Subscribe Now" id="button-style">
+                <input type="reset" value="Reset" id="button-style">
             </fieldset>
         </form>
     </section>
