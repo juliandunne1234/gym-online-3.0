@@ -370,14 +370,6 @@ footer {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
 }
 
-.gold-star {
-    color: rgba(255, 215, 0, 0.7);
-}
-
-.no-star {
-    color: #fafafa;
-}
-
 #positive-reviews-outer {
     float: left;
     height: 300px;
@@ -386,30 +378,56 @@ footer {
     box-sizing: border-box;
 }
 
-#positive-reviews-inner {
+.positive-reviews-inner {
+    height: 150px;
+    position: relative;
+}
+
+.positive-reviews-inner-left {
+    display: inline-block;
+    width: 20%;
+    height: 150px;
+    padding-top: 5px; 
+    margin-left: 50px;
+}
+
+.review-photo {
+    width: 75%;
+    height: auto;
+    border-radius: 45%;
+    position: relative;
+}
+
+.positive-reviews-inner-right {
+    display: inline-block;
     width: 60%;
-    margin: 10px auto;
+    padding-top: 5px;
+    position: absolute;
 }
 
 .subscriber-name {
-    /* margin-top: 1.5px; */
-    margin-bottom: 2px;
+    line-height: 25px;
+    margin-bottom: 3px;
     letter-spacing: 1.5px;
     color: #fafafa;
     text-decoration: underline;
 }
 
-.subscriber-comment {
-    color: #fafafa;
-    line-height: 20px;
-    letter-spacing: 0.5px;
+.gold-star {
+    color: rgba(255, 215, 0, 0.7);
+    font-size: 0.75%;
+    
 }
 
-.hr-dashed-sm {
-    width: 80%;
-    border-bottom: 3px dashed #0066CC;
-    margin-top: 5px;
-    margin-bottom: 10px;
+.no-star {
+    color: #fafafa;
+    font-size: 0.75%;
+}
+
+.subscriber-comment {
+    color: #fafafa;
+    line-height: 25px;
+    letter-spacing: 0.5px;
 }
 
 /* motivational video opening new doors */
@@ -449,7 +467,6 @@ footer {
     background-image: url('../images/signup-gym-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -457,7 +474,7 @@ footer {
 #subscribe-form {
     width: 40%;
     color: #fafafa;
-    margin: 30px 75px;
+    margin: 30px 15%;
 }
 
 #subscribe-form fieldset {
@@ -483,17 +500,17 @@ footer {
 }
 
 #subscribe-form label {
-    margin-left: 30px;
+    margin-left: 10%;
 }
 
 .text-input {
-    width: 75%;
+    width: 80%;
     height: 20px;
     border: 3px solid #0066CC;
     border-radius: 5px;
     color: #0066CC;
     background-color: #fafafa;
-    margin: 5px 15px 5px 30px;
+    margin: 5px 15px 5px 10%;
     font-weight: 600;
 }
 
@@ -502,7 +519,8 @@ footer {
 }
 
 #button-style {
-    margin: 15px 0 15px 30px;
+    width: 80%;
+    margin: 15px 0 15px 10%;
     padding: 3px 9px;
     font-size: 150%;
     border-radius: 5px;
