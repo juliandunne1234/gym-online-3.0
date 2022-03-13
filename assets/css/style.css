@@ -128,6 +128,7 @@ h1, h2 {
 #subscriber-plans {
     height: 300px;
     background-color: #fafafa;
+    border: 2px solid #fafafa;
 }
 
 #plan1, #plan2, #plan3 {
@@ -531,4 +532,82 @@ footer {
 #button-style:hover {
     background-color: #fafafa;
     color: #0066CC;
+}
+
+/* media queries */
+
+/* index.html larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #logo {
+        font-size: 200%;
+        line-height: 50px;
+        width: 75%;
+    }
+    
+    #menu {
+        font-size: 100%;
+        letter-spacing: 2px;
+        line-height: 25px;
+        width: 75%;
+    }
+
+    #hero-outer {
+        width: 75%;
+    }
+
+    #subscriber-opening-tag, #company-moto {
+        letter-spacing: 1px;
+        padding: 20px 0 0 20px;
+    }
+    
+    #subscriber-opening-tag p {
+        font-size: 100%;
+        padding-left: 20px;
+    }
+    
+    .first-subscriber {
+        font-size: 50%;
+    }
+
+    #plan1, #plan2, #plan3 {
+        width: 24.6%;
+    }
+
+    #anchor-styled-button {
+        width: 37.5%;
+        height: 75px;
+        padding-top: 25px;
+    }
+
+    #select-plan-nav, #signup-nav {
+        padding: 1.5px 15px;
+        line-height: 20px;
+    }
+
+    #select-plan-nav:hover, #signup-nav:hover {
+        border-radius: 10px;
+    }
+
+    footer {
+        height: 100px;
+        width: 75%;
+    }
+
+    .social-networks i {
+        font-size: 125%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    #contact-heading {
+        height: 25px;
+    }
+    
+    #contact-details {
+        font-size: 90%;
+    }
+    
+    #hr-footer {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+    }
 }
