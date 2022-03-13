@@ -573,6 +573,10 @@ footer {
         width: 24.6%;
     }
 
+    .hr-dashed {
+        display: none;
+    }
+
     #anchor-styled-button {
         width: 37.5%;
         height: 75px;
@@ -611,3 +615,43 @@ footer {
         border-bottom: 2px solid rgba(0, 0, 0, 0.7);
     }
 }
+
+/* index.html medium screens size from 950px wide and down */
+@media screen and (max-width: 950px) { 
+
+    #anchor-styled-button {
+        width: 75%;
+        height: 75px;
+        padding-top: 25px;
+        clear: both;
+    }
+    
+    #company-moto h3 {
+        width: 90%;
+        font-size: 200%;
+        padding-top: 25px;
+    }
+    
+    #company-moto h4 {
+        width: 90%;
+        font-size: 170%;
+        padding-top: 3px;
+    }
+    
+    #company-moto h5 {
+        width: 90%;
+        font-size: 130%;
+        padding-top: 3px;
+    }
+    
+    #company-moto h6 {
+        width: 90%;
+        font-size: 100%;
+        padding-top: 3px;
+    }
+
+    #select-plan-nav, #signup-nav {
+        padding: 3px 30px;
+    }
+}
+
