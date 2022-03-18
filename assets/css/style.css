@@ -236,12 +236,11 @@ footer {
 /* detailed gym plans */
 #subscriber-plans-detail {
     height: 450px;
-    background-color: #fafafa;
 }
 
 #plan1-detail, #plan2-detail, #plan3-detail {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.8));
     box-sizing: border-box;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.7));
     margin: 0 auto;
     width: 33.3%;
     height: 100%;
@@ -286,7 +285,7 @@ footer {
 /* subscriber reviews and motivational video */
 #subscriber-review-main {
     height: 300px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7));
 }
 
 #positive-reviews-outer-lg {
@@ -409,14 +408,22 @@ footer {
 }
 
 /* signup webpage */
+#subscribe-background {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.96);
+    float: left;
+}
+
 #subscribe-section {
     width: 80%;
     height: 600px;
     background-image: url('../images/signup-gym-image.jpg');
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    margin: 0 auto;
+    float: right;
+
 }
 
 #subscribe-form {
