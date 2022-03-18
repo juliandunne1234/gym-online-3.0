@@ -470,10 +470,17 @@ footer {
         letter-spacing: 2px;
         line-height: 25px;
         width: 75%;
+        margin-bottom: 3px;
     }
 
     #hero-outer {
         width: 75%;
+        height: 225px;
+    }
+
+    /* different membership plans */
+    #subscriber-plans {
+        height: 225px;
     }
 
     #subscriber-opening-tag, #trainer-opening-tag {
@@ -495,8 +502,9 @@ footer {
         box-sizing: border-box;
     }
 
-    .hr-dashed {
-        display: none;
+    .plan-heading-moto {
+        font-size: 75%;
+        padding-top: 10px;
     }
 
     #anchor-styled-button {
@@ -508,6 +516,8 @@ footer {
     #select-plan-nav, #signup-nav {
         padding: 1.5px 15px;
         line-height: 20px;
+        letter-spacing: 1.5px;
+        font-size: 100%;
     }
 
     #select-plan-nav:hover, #signup-nav:hover {
@@ -543,8 +553,8 @@ footer {
 
     #anchor-styled-button {
         width: 75%;
-        height: 75px;
-        padding-top: 25px;
+        height: 50px;
+        padding-top: 15px;
         clear: both;
         background: rgba(0, 0, 0, 0.7);
     }
@@ -595,7 +605,25 @@ footer {
         box-sizing: border-box;
     }
 
-    .hr-heading, .hr-moto {
-        display: none;
+    footer {
+        width: 70%;
+    }
+
+    .social-networks i {
+        font-size: 100%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    #contact-heading {
+        font-size: 75%;
+    }
+    
+    #contact-details {
+        font-size: 75%;
+    }
+    
+    #hr-footer {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.7);
     }
 }
