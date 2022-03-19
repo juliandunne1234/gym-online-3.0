@@ -141,7 +141,8 @@ h1, h2 {
     box-sizing: border-box;
     text-align: center;
     padding-top: 50px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.6));
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.6)); */
+    background: rgba(0, 0, 0, 0.7);
 }
 
 #select-plan-nav, #signup-nav {
@@ -545,6 +546,7 @@ footer {
         width: 37.5%;
         height: 75px;
         padding-top: 25px;
+        background: rgba(0, 0, 0, 0.7);
     }
 
     #select-plan-nav, #signup-nav {
