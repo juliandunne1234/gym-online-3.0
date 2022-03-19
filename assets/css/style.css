@@ -290,7 +290,7 @@ footer {
     border: 2px solid #0066CC;
 }
 
-/* subscriber reviews and motivational video */
+/* subscriber reviews */
 #subscriber-review-main {
     height: 300px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7));
@@ -388,7 +388,7 @@ footer {
     letter-spacing: 0.5px;
 }
 
-/* motivational video opening new doors */
+/* motivational video */
 #motivational-video-outer {
     float: right;
     height: 300px;
@@ -496,29 +496,24 @@ footer {
 }
 
 /* media queries */
-
 /* index.html larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #logo {
         font-size: 200%;
         line-height: 50px;
-        width: 75%;
     }
     
     #menu {
         font-size: 100%;
         letter-spacing: 2px;
         line-height: 25px;
-        width: 75%;
         margin-bottom: 3px;
     }
 
     #hero-outer {
-        width: 75%;
         height: 225px;
     }
 
-    /* different membership plans */
     #subscriber-plans {
         height: 225px;
     }
@@ -538,7 +533,6 @@ footer {
     }
 
     #plan1, #plan2, #plan3 {
-        width: 25%;
         box-sizing: border-box;
     }
 
@@ -548,7 +542,6 @@ footer {
     }
 
     .anchor-styled-button {
-        width: 37.5%;
         height: 75px;
         padding-top: 25px;
         background: rgba(0, 0, 0, 0.7);
@@ -567,7 +560,6 @@ footer {
 
     footer {
         height: 100px;
-        width: 75%;
     }
 
     .social-networks i {
@@ -589,18 +581,6 @@ footer {
     }
 }
 
-/* index.html medium screens size from 950px wide and down */
-@media screen and (max-width: 950px) { 
-
-    .anchor-styled-button {
-        width: 75%;
-        height: 50px;
-        padding-top: 15px;
-        clear: both;
-        background: rgba(0, 0, 0, 0.7);
-    }
-}
-
 /* index.html medium screens size from 850px wide and down */
 @media screen and (max-width: 850px) {
     #hero-outer {
@@ -617,8 +597,8 @@ footer {
     }
     
     #plan1, #plan2, #plan3 {
-        float: left;
-        width: 75%;
+        clear: both;
+        width: 100%;
         height: 100px;
     }
 
@@ -642,8 +622,10 @@ footer {
         box-sizing: border-box;
     }
 
-    footer {
-        width: 70%;
+    .anchor-styled-button {
+        height: 50px;
+        padding-top: 15px;
+        background: rgba(0, 0, 0, 0.7);
     }
 
     .social-networks i {
@@ -662,6 +644,68 @@ footer {
     
     #hr-footer {
         border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+    }
+}
+
+/* index.html small screens size from 650px wide and down */
+@media screen and (max-width: 650px) {
+    #logo {
+        font-size: 100%;
+        line-height: 30px;
+    }
+
+    #menu {
+        font-size: 75%;
+        letter-spacing: 1px;
+        line-height: 20px;
+        margin-bottom: 1.5px;
+    }
+
+    #hero-outer {
+        height: 125px;
+    }
+
+    #subscriber-opening-tag p, #trainer-opening-tag p {
+        font-size: 50%;
+        padding-left: 15px;
+    }
+
+    .first-trainer {
+        font-size: 50%;
+    }
+
+    .plan-heading-moto {
+        font-size: 60%;
+    }
+
+    .anchor-styled-button {
+        width: 100%;
+        clear: both;
+    }
+
+    #select-plan-nav, #signup-nav {
+        padding: 1.5px 20px;
+        line-height: 15px;
+        letter-spacing: 1.5px;
+        font-size: 80%;
+    }
+
+    .social-networks i {
+        font-size: 75%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #contact-heading {
+        font-size: 50%;
+    }
+
+    #contact-details {
+        font-size: 50%;
+    }
+    
+    #hr-footer {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.7);
     }
 }
 
@@ -684,7 +728,7 @@ footer {
     
     #plan1-detail, #plan2-detail, #plan3-detail {
         margin: 0 auto;
-        width: 75%;
+        width: 100%;
         height: 100%;
         clear: both;
     }
@@ -717,7 +761,7 @@ footer {
 
     #subscriber-review-main {
         clear: both;
-        width: 75%;
+        width: 100%;
         height: 300px;
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
     }
@@ -739,40 +783,68 @@ footer {
 
     #anchor-styled-button2 {
         height: 75px;
-        width: 75%;
         clear: both;
         padding-top: 25px;
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
     }
 }
 
-/* select-a-plan.html larger to medium screens size from 850px wide and down */
-@media screen and (max-width: 850px) {
+/* select-a-plan.html smaller screens size from 650px wide and down */
+@media screen and (max-width: 650px) {
     .plan-heading-detail {
+        padding-top: 30px;
+        line-height: 20px;
         font-size: 60%;
     }
 
     .plan-subheading-detail {
+        padding-top: 35px;
+        line-height: 20px;
         font-size: 60%;
     }
 
     .positive-reviews-inner-right {
         font-size: 75%;
     }
+
+    #anchor-styled-button2 {
+        height: 50px;
+        padding-top: 10px;
+    }
+}
+
+/* select-a-plan.html smallest screens size from 450px wide and down */
+@media screen and (max-width: 450px) {
+    #plan1-detail, #plan2-detail, #plan3-detail {
+        height: 75%;
+    }
+    
+    .plan-subheading-detail{
+        display: none;
+    }
+
+    .plan-heading-detail {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    #subscriber-review-main {
+        display: none;
+    }
+
+    #anchor-styled-button2 {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+    }
 }
 
 /* signup.html larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #subscribe-background {
-        width: 75%;
-    }
-    
+@media screen and (max-width: 1200px) { 
     #subscribe-section {
         width: 100%;
     }
 
     #subscribe-form {
-        margin: 30px 30px;
+        margin: 30px 75px;
     }
     
     #legend-style {
@@ -789,8 +861,8 @@ footer {
     }
 }
 
-/* signup.html medium screens size from 950px wide and down */
-@media screen and (max-width: 950px) {
+/* signup.html medium screens size from 850px wide and down */
+@media screen and (max-width: 850px) {
     #subscribe-section {
         width: 100%;
         background: rgba(0, 0, 0, 0.96);
@@ -808,5 +880,36 @@ footer {
 
     #button-style {
         font-size: 120%;
+    }
+}
+
+/* signup.html medium screens size from 550px wide and down */
+@media screen and (max-width: 550px) {
+
+    #subscribe-form {
+        width: 40%;
+    }
+
+    #subscribe-form h2 {
+        letter-spacing: 1px;
+        font-size: 80%;
+        line-height: 20px;
+    }
+
+    #subscribe-form label {
+        font-size: 60%;
+    }
+
+    .text-input {
+        height: 15px;
+        border: 2px solid #0066CC;
+        font-weight: 400;
+        font-size: 50%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    #button-style {
+        font-size: 60%;
     }
 }
