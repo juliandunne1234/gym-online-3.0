@@ -78,6 +78,10 @@ h1, h2 {
     height: 300px;
 }
 
+#intro-reviews {
+    display: none;
+}
+
 #subscriber-opening-tag, #trainer-opening-tag {
     width: 50%;
     height: 300px;
@@ -134,14 +138,17 @@ h1, h2 {
 }
 
 /* anchor element styled as a button */
-#anchor-styled-button {
+#nav-style-buttons {
+    display: none;
+}
+
+.anchor-styled-button {
     height: 150px;
     width: 50%;
     float: left;
     box-sizing: border-box;
     text-align: center;
     padding-top: 50px;
-    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.6)); */
     background: rgba(0, 0, 0, 0.7);
 }
 
@@ -393,8 +400,6 @@ footer {
     text-align: center;
     margin-top: 20px;
     margin-left: 50px;
-    height: 80%;
-    width: 80%;
 }
 
 /* anchor element styled as a button */
@@ -542,7 +547,7 @@ footer {
         padding-top: 10px;
     }
 
-    #anchor-styled-button {
+    .anchor-styled-button {
         width: 37.5%;
         height: 75px;
         padding-top: 25px;
@@ -587,7 +592,7 @@ footer {
 /* index.html medium screens size from 950px wide and down */
 @media screen and (max-width: 950px) { 
 
-    #anchor-styled-button {
+    .anchor-styled-button {
         width: 75%;
         height: 50px;
         padding-top: 15px;
