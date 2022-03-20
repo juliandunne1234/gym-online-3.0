@@ -1,13 +1,12 @@
 <h1 align="center">Gym Online 3.0</h1>
 A website to subscribe to an online gym. Created as part of the Code Institue Portfolio 1: HTML and CSS Essentials Milestone Project.
 
-[Gym Online 3.0 Live Website](https://juliandunne1234.github.io/gym-online-3.0/)
-
 ***
 ![Responsive images of website](assets/images/responsive-images/intro-webpage-responsive.jpg)
 ***
 
 ## Introduction
+***
 Nowadays people have access to so much information that filtering this information can be quite time consuming. Online media platforms are great but sometimes you have to watch the entire video to decide if the content is actually what you want.<br>
 
 Finding 1-2 hours a day to go to a gym is not possible or even appealing to everyone. Anyone that has an interest in physical activity, whether that is 10-30 minutes or longer should have immediate access to a workout plan that will suit their requirements. <br>
@@ -16,7 +15,12 @@ This gym concept is suitable for everyone. From the beginner doing their first p
 ***
 
 ## Table of Contents
+***
 * Features
+* Testing
+* Validator Testing
+* Technologies
+* Deployment
 ***
 
 ## Features
@@ -72,4 +76,55 @@ This gym concept is suitable for everyone. From the beginner doing their first p
 
 * On smaller screen sizes only a background color is used with the subription form displayed.
 ![Navigation menu header screenshot](assets/images/responsive-images/signup-small-screen.jpg)
+***
+
+## Testing
+***
+* Testing was done to confirm each page in this website works as expected using Google Chrome and Edge browsers. 
+* Devtools device toolbar was used to confirm website is responsive and remains asthetically pleasing for the different standard screen sizes.
+* Navigation menu items, anchor tags and form inputs have all been tested to confirm everything functions as required.   
+***
+
+## Validator Testing
+***
+
+* HTML - no errors found when passing index.html, select-a-plan.html and signup.html content through the [W3C validator](https://validator.w3.org/nu/#textarea)
+
+* CSS - no errors found when passing style.css content through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator)
+
+* Accessibility - Website accessibility is a key part of the project criteria. Devtools Lighthouse was used to confirm the colors and fonts used in each page are easy to read and accessible.
+
+    * Homepage
+    ![Navigation menu header screenshot](assets/images/responsive-images/homepage-lighthouse-result.jpg)
+
+    * Select a Plan
+    ![Navigation menu header screenshot](assets/images/responsive-images/select-a-plan-lighthouse-result.jpg)
+
+    * Sign Up
+    ![Navigation menu header screenshot](assets/images/responsive-images/signup-lighthouse-result.jpg)
+***
+
+## Technologies Used
+***
+
+### Languages
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+
+### Libraries
+* [Google Fonts](https://fonts.google.com/) - Import 'Open Sans' and 'Roboto'
+* [Font Awesome](https://fontawesome.com/) - version 5.15.4
+
+### Framework
+* [GitHub](https://github.com/juliandunne1234/gym-online-3.0.git) - Gym Online 3.0 project repository
+* [Gitpod](https://www.gitpod.io/) - open source developer platform used to create the website for the project
+***
+
+## Deployment
+***
+
+* The site was deployed to GitHub pages using the following steps: 
+    * Open the GitHub repository and select Settings tab
+    * Select Master Branch from the source section drop down menu
+    * Live link - [Gym Online 3.0](https://juliandunne1234.github.io/gym-online-3.0/)
 ***
