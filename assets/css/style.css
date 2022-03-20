@@ -885,11 +885,6 @@ footer {
 
 /* signup.html medium screens size from 550px wide and down */
 @media screen and (max-width: 550px) {
-
-    #subscribe-form {
-        width: 40%;
-    }
-
     #subscribe-form h2 {
         letter-spacing: 1px;
         font-size: 80%;
