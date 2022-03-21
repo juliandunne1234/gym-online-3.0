@@ -6,7 +6,6 @@ A website to subscribe to an online gym. Created as part of the Code Institue Po
 ***
 
 ## Introduction
-***
 Nowadays people have access to so much information that filtering this information can be quite time consuming. Online media platforms are great but sometimes you have to watch the entire video to decide if the content is actually what you want.<br>
 
 Finding 1-2 hours a day to go to a gym is not possible or even appealing to everyone. Anyone that has an interest in physical activity, whether that is 10-30 minutes or longer should have immediate access to a workout plan that will suit their requirements. <br>
@@ -15,16 +14,16 @@ This gym concept is suitable for everyone. From the beginner doing their first p
 ***
 
 ## Table of Contents
-***
-* Features
-* Testing
-* Validator Testing
-* Technologies
-* Deployment
+* [Features](#Features)
+* [Testing](#Testing)
+* [Validator Testing](#validator-testing)
+* [Technologies](#Technologies)
+* [Deployment](#Deployment)
+* [Issues List](#Issues-List)
+* [Credits](#Credits)
 ***
 
 ## Features
-***
 
 ### Header & Navigation
 * In the header the "Gym Online 3.0" anchor tag is featured at the top of the page and can be selected from any page to return to the home page.
@@ -51,7 +50,7 @@ This gym concept is suitable for everyone. From the beginner doing their first p
 ![Navigation menu header screenshot](assets/images/responsive-images/nav-anchor-style-button.jpg)
 ***
 
-## Select a Plan
+### Select a Plan
 ![Navigation menu header screenshot](assets/images/responsive-images/select-a-plan-responsive.jpg)
 
 * Similiar to the homepage the select-a-plan page contains three training plans. The subscriber plan detail section provides lower level information on what each training plan entails. The same layout as the homepage is used with gradient background colors.
@@ -79,15 +78,12 @@ This gym concept is suitable for everyone. From the beginner doing their first p
 ***
 
 ## Testing
-***
 * Testing was done to confirm each page in this website works as expected using Google Chrome and Edge browsers. 
 * Devtools device toolbar was used to confirm website is responsive and remains asthetically pleasing for the different standard screen sizes.
 * Navigation menu items, anchor tags and form inputs have all been tested to confirm everything functions as required.   
 ***
 
 ## Validator Testing
-***
-
 * HTML - no errors found when passing index.html, select-a-plan.html and signup.html content through the [W3C validator](https://validator.w3.org/nu/#textarea)
 
 * CSS - no errors found when passing style.css content through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator)
@@ -105,8 +101,6 @@ This gym concept is suitable for everyone. From the beginner doing their first p
 ***
 
 ## Technologies Used
-***
-
 ### Languages
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS](https://en.wikipedia.org/wiki/CSS)
@@ -121,10 +115,32 @@ This gym concept is suitable for everyone. From the beginner doing their first p
 ***
 
 ## Deployment
-***
-
 * The site was deployed to GitHub pages using the following steps: 
     * Open the GitHub repository and select Settings tab
     * Select Master Branch from the source section drop down menu
     * Live link - [Gym Online 3.0](https://juliandunne1234.github.io/gym-online-3.0/)
+***
+
+## Issues List
+* Open Issues:
+    * Setting relative and absolute positioning on each web page so that the full screen size is used by the page. Instead there is whitespace remaining at the bottom of the pages.
+<br><br>
+* Resolved Issues:
+    * Using images so that the required content is displayed for each screen size.
+    * Maintaining detailed gym plans so that content within each plan remains clear to the reader for each screen size. 
+
+***
+
+## Credits
+### Content
+
+* The Love Running walkthrough project with Code Institute was very helpful to use as a starting point for this project. In particular when trying to create the navigation menu layout and for using the social media icons
+* Additionally the Love Running project was helpful as a point of reference when creating the subscriber form with text input requirements and form validation
+* README file structure adapted from Code Institute sample project [README.md](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/)
+* Tutor support was also very helpful and advice taken from mentor sessions was used during development of the website 
+
+### Media
+* All images and the video used in this project were found on the [pexels](https://www.pexels.com/) website
+* Fonts used were imported from [Google Fonts](https://fonts.google.com/)
+* Gym dumbell icon used throughout the website is taken from [Font Awesome](https://fontawesome.com/)
 ***
